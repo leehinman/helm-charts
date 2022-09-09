@@ -31,7 +31,7 @@ extraEnvs:
         name: elasticsearch-master-credentials
         key: password
 
-secretMounts: 
+secretMounts:
   - name: elasticsearch-master-certs
     secretName: elasticsearch-master-certs
     path: /usr/share/logstash/config/certs

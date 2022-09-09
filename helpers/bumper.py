@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 #
 # Usage:
@@ -17,7 +17,7 @@ import fileinput
 
 os.chdir(os.path.join(os.path.dirname(__file__), ".."))
 
-version = "8.1.0"
+version = "8.4.1"
 major = "8"
 
 chart_version = version
